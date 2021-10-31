@@ -1,0 +1,257 @@
+body{
+    margin: 0;
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+    color: white;
+    background-image:url(images/banner\ \(2\).png);
+    background-position: center;
+    background-size:cover;
+}
+
+i{
+    font-size: 0.8rem;
+    padding: 2.5px 5px;
+   
+}
+
+#navbarNav > ul > li > a:hover, #icons > a > i:hover{
+    font-weight: 400;
+    color: #92D0F5;
+    text-shadow: 1px -1px 5px black;
+}
+
+
+/* navbar*********************************************** */
+nav{
+    background-color: #343a40;
+    color: white;
+
+}
+#navbarNav{
+    justify-content: center;
+}
+
+#topNav div > div > ul > li > a{
+    color: white;
+    margin: auto 20px;
+    opacity: 0.8;
+    font-size: 1.2em;
+}
+
+#topNav{
+    padding: 2px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 50;
+}
+
+
+/* banner***************************************** */
+
+#banner{
+    height: 80vh;
+    margin-top: 80px;
+}
+
+#banner > div > div > h2, h1{
+    letter-spacing: 10px;
+    text-align: center;
+    font-family: Raleway;
+    color: white;
+    margin: 40px;
+    font-size: 2.5em;
+}
+
+#banner > div > div > h1{
+    font-size: 4.5em;
+    font-weight: 300;
+    letter-spacing: 20px;
+}
+
+#banner > div > div:nth-child(2) > img{
+    height: 50vh;
+    border-radius: 50%;
+    display: block;
+    margin: 5vh auto;
+    border: 10px white solid;
+}
+
+#banner > div > div:nth-child(1){
+ padding-top: 5vh;
+}
+
+/* skills div******************************************************** */
+
+#skills{
+    background-image:url(images/banner\ 2xx.png);
+    background-position: top;
+    background-size:cover;
+    padding-bottom: 150px;
+}
+
+#skills > div > div:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#skillsHeading > h3{
+    margin: 60px 0px 50px 0px;
+    letter-spacing: 6px;
+    font-size: 3em;
+    font-weight: 300;
+    font-family: Raleway;
+}
+
+#skills > div > div:nth-child(2) > div{
+    margin: 20px;
+    background-color: #343a40af;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 0.87);
+}
+
+#skillsIcons > div > i{
+    font-size: 4em;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+}
+
+#skills > div > div > div > h4{
+    font-weight: 300;
+    font-size: 1.5em;
+    display: block;
+    margin-top: 30px;
+}
+
+
+/* bio div*************************************************** */
+#projectsHeading > h3, #contactHeading > h3, #bioHeading > h3, #experienceHeading > h3, #educationHeading > h3{
+    margin: 50px 0px 60px 0px;
+    letter-spacing: 6px;
+    font-size: 3em;
+    font-weight: 300;
+    font-family: Raleway;
+}
+#experienceHeading > h3{
+    margin: 70px 0px 60px 0px;
+}
+
+#bioBody{
+    font-size: 1.2em;
+}
+
+/* experience div*************************************************** */
+
+#experience > div{
+    padding-bottom: 100px;
+}
+
+#expDiv1, #expDiv2, #expDiv3{
+    background-color: #343a40;
+    margin: 20px 1vw;
+    padding: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+#expDiv1>h5, #expDiv2>h5, #expDiv3>h5{
+    color: white;
+    font-weight: 200;
+    font-size: 1rem;
+    padding-top: 3px;
+    display: flex;
+}
+
+#expDiv1>h4, #expDiv2>h4, #expDiv3>h4{
+    color: #92D0F5;
+    font-weight: 300;
+}
+
+/* education div*************************************************** */
+
+#education{
+    background-image:url(images/banner\ 2xx.png);
+    background-position: top;
+    background-size:cover;
+}
+
+#education > div{
+    padding-bottom: 80px;
+}
+
+#educationHeading > h3{
+margin: 60px 0px 50px 0px;
+font-weight: 300;
+}
+
+#eduDiv1, #eduDiv2{
+    background-color: #343a40;
+    margin: 1vw;
+    padding: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+#eduDiv1>h5, #eduDiv2>h5{
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+#eduDiv1>h4, #eduDiv2>h4{
+    color: #92D0F5;
+    font-weight: 300;
+}
+
+/* projects div*************************************************** */
+
+#proj1Img{
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.253);
+}
+
+#projDiv1 > h4{
+    font-weight: 300;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+
+#projDiv1 > a{
+    color: white;
+    font-size: 1em;
+}
+
+
+#contactDiv1{
+    background-color: #343a40;
+}
+#contactDiv1 > a > p, #contactDiv1 > p > a{
+    color: white;
+}
+
+
+#contactDiv1 > p > a{
+    color: white;
+}
+
+#contactDiv1 > h5, #contactDiv1 > a > h5{
+    color: #92D0F5;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+/* pageFooter****************************************************** */
+
+#pageFooter{
+    margin: 80px 0px 0px 0px;
+    background-color: #343a40;
+}
+
+#pageFooter>div>a>i{
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 2em;
+    padding: 30px 10px 30px 10px;
+}
+
